@@ -1,5 +1,6 @@
 {
   "sourceLanguage" : "az",
+  "version" : "1.0",
   "strings" : {
     "" : {
       "shouldTranslate" : true
