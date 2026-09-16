@@ -1,11 +1,11 @@
 {
-  "sourceLanguage" : "en",
+  "sourceLanguage" : "az",
   "strings" : {
     "" : {
-      "shouldTranslate" : false
+      "shouldTranslate" : true
     },
     "—" : {
-      "shouldTranslate" : false
+      "shouldTranslate" : true
     },
     "%@ · %@" : {
       "localizations" : {
@@ -16,7 +16,7 @@
           }
         }
       },
-      "shouldTranslate" : false
+      "shouldTranslate" : true
     },
     "%@ for %@" : {
       "localizations" : {
@@ -509,7 +509,7 @@
         }
       }
     },
-    "Charge level" : {
+    "Enerji səviyyəsi" : {
       "localizations" : {
         "zh-Hans" : {
           "stringUnit" : {
