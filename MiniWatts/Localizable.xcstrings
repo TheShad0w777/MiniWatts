@@ -68,7 +68,7 @@
         "az" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ W giriş"
+            "value" : "%@ V giriş"
           }
         },
         "zh-Hans" : {
@@ -84,7 +84,7 @@
         "az" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "hüceyrəyə %@ W"
+            "value" : "hüceyrəyə %@ V"
           }
         },
         "zh-Hans" : {
@@ -190,6 +190,38 @@
         }
       }
     },
+    "A charge session survives the app being backgrounded: it ends when you unplug, not when you switch away. Any stretch the app missed is left out of the totals rather than estimated, and the session is marked inferred." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tətbiqin arxa planda olması zaryad seansını saxlayır: onu ayırdığınız zaman, deyil ki, getdiyiniz zaman bitir. Tətbiqin qaçırdığı hər hansı bir məqam cəmi təxminləmə əvəzinə çıxarılır və sessiya çıxarılmış kimi işarə olunur."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切到后台不会结束一次充电记录：记录在拔掉充电器时才结束，而不是在你切走时。应用没看到的那段时间会从总量中排除，而不是估算，会话被标记为推断。"
+          }
+        }
+      }
+    },
+    "A session starts when you plug in and is saved when you unplug. Energy is integrated from the live sensors, so keep MiniWatts in the foreground for the totals to cover the whole charge." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sessiya fişi qoşduğunuz zaman başlayır və ayırdığınız zaman saxlanır. Enerji canlı sensorbundan inteqrasiya edilir, buna görə də MiniWatts ön planda qalın ki, cəmlər bütün yükləməni əhatə etsin."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "插入充电器时开始记录会话，拔出时自动保存。电量数据由实时传感器积分计算得出，因此请将 MiniWatts 保持在前台运行，以确保整个充电过程的数据完整。"
+          }
+        }
+      }
+    },
     "About" : {
       "localizations" : {
         "az" : {
@@ -206,6 +238,54 @@
         }
       }
     },
+    "Above 80% the charger tapers to constant-voltage, so low draw here is normal battery chemistry, not a weak charger." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "80% yuxarısında şarj cihazı sabit gərginliyə keçir, buna görə də burada aşağı çəkmə normal batareya kimyasıdır, zəif şarj cihazı deyil."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "超过 80% 后充电转入恒压涓流阶段，此时功率偏低是正常的电池特性，不是充电器不行。"
+          }
+        }
+      }
+    },
+    "Accessories" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aksesuarlar"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配件"
+          }
+        }
+      }
+    },
+    "Accessory battery levels aren't available on this version of iOS." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aksesuarın batareya səviyyələri bu iOS versiyasında mövcud deyil."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 iOS 版本不支持读取配件电量。"
+          }
+        }
+      }
+    },
     "Adapter" : {
       "localizations" : {
         "az" : {
@@ -218,6 +298,38 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "适配器"
+          }
+        }
+      }
+    },
+    "Adapter utilisation" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adapterin istifadəsi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适配器利用率"
+          }
+        }
+      }
+    },
+    "Advertised profiles" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elan edilən profillar"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "广播供电规格"
           }
         }
       }
@@ -254,6 +366,22 @@
         }
       }
     },
+    "Average in" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orta giriş"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "平均输入"
+          }
+        }
+      }
+    },
     "Battery" : {
       "localizations" : {
         "az" : {
@@ -266,6 +394,214 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "电池"
+          }
+        }
+      }
+    },
+    "Battery °C" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batareya °C"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池温度 °C"
+          }
+        }
+      }
+    },
+    "Battery cell" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batareya hüceyrəsi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电芯"
+          }
+        }
+      }
+    },
+    "Battery energy" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batareya enerjisi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池能量"
+          }
+        }
+      }
+    },
+    "Battery health" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batareyanın sağlamlığı"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池健康度"
+          }
+        }
+      }
+    },
+    "Battery pack voltage" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batareya paketi gərginliyi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池组电压"
+          }
+        }
+      }
+    },
+    "Battery rail" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batareya relsı"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池侧"
+          }
+        }
+      }
+    },
+    "Battery rail voltage" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batareya relsinin gərginliyi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池轨电压"
+          }
+        }
+      }
+    },
+    "BatteryCenter loaded and answered, but reported no connected devices. Its XPC to powerd is denied: the console shows _BCPowerSourceController \"Failed to obtain power sources info\"." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter yükləndi və cavab verdi, ancaq heç bir bağlı cihaz bildirmedi. onun powerd-ə XPC rədd edilir: konsol _BCPowerSourceController \"Güc mənbələri məlumatını əldə etmə uğursuz\" göstərir."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter 已加载并有响应，但未报告任何已连接设备。它对 powerd 的 XPC 被拒绝：控制台会出现 _BCPowerSourceController \"Failed to obtain power sources info\"。"
+          }
+        }
+      }
+    },
+    "BatteryCenter loaded but BCBatteryDeviceController is not in the runtime." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter yükləndi, ancaq BCBatteryDeviceController runtime-da deyil."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter 已加载，但运行时中未找到 BCBatteryDeviceController。"
+          }
+        }
+      }
+    },
+    "BatteryCenter.framework did not load: %@" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter.framework yüklənmədi: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BatteryCenter.framework 加载失败：%@"
+          }
+        }
+      }
+    },
+    "BCBatteryDeviceController could not be created on this iOS version." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BCBatteryDeviceController bu iOS versiyasında yaradıla bilmədi."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此 iOS 版本上无法创建 BCBatteryDeviceController。"
+          }
+        }
+      }
+    },
+    "BCBatteryDeviceController exposes no device list on this iOS version." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BCBatteryDeviceController bu iOS versiyasında cihaz siyahısını aşkara çıxarmır."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此 iOS 版本上，BCBatteryDeviceController 未提供设备列表。"
+          }
+        }
+      }
+    },
+    "Camera" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相机"
           }
         }
       }
@@ -286,6 +622,102 @@
         }
       }
     },
+    "Case" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qutu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电盒"
+          }
+        }
+      }
+    },
+    "Cell current" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hüceyrə cərəyanı"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电芯电流"
+          }
+        }
+      }
+    },
+    "Cell temp" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hüceyrə temp"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电芯温度"
+          }
+        }
+      }
+    },
+    "Cell voltage" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hüceyrə gərginliyi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电芯电压"
+          }
+        }
+      }
+    },
+    "cell watts ÷ charger watts" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hüceyrə vattları ÷ şarj cihazı vattları"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电芯功率 ÷ 充电器功率"
+          }
+        }
+      }
+    },
+    "Celsius" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selsiy"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摄氏度"
+          }
+        }
+      }
+    },
     "Charge %" : {
       "localizations" : {
         "az" : {
@@ -302,18 +734,98 @@
         }
       }
     },
-    "Charging" : {
+    "Charge curve" : {
       "localizations" : {
         "az" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zaryad olunur"
+            "value" : "Zaryad əyrisi"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "充电中"
+            "value" : "充电曲线"
+          }
+        }
+      }
+    },
+    "Charge IC" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaryad IC"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电芯片"
+          }
+        }
+      }
+    },
+    "Charge IC die" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaryad IC die"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电芯片核心温度"
+          }
+        }
+      }
+    },
+    "Charge IC junction" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaryad IC qovşağı"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电芯片结温"
+          }
+        }
+      }
+    },
+    "Enerji səviyyəsi" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enerji səviyyəsi"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池电量"
+          }
+        }
+      }
+    },
+    "Charge power below the adapter's rating right now is expected: the limit is the system's, not the charger's." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaryad gücdə adapterin reytinqindən aşağı indi gözlənilir: limit sistemin, şarj cihazının deyil."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前充电功率低于适配器额定功率属正常现象：此时的功率限制来自系统温控，而非充电器。"
           }
         }
       }
@@ -334,6 +846,134 @@
         }
       }
     },
+    "Charging" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaryad olunur"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电中"
+          }
+        }
+      }
+    },
+    "Charging is on hold, so almost nothing is being drawn. Optimized Battery Charging or a charge limit looks exactly like this." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaryad gözləməkdədir, buna görə də təqribən heç nə çəkilmir. Optimallaşdırılmış Batareya Zaryadı və ya zaryad limiti tam olaraq buna bənzəyir."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充电处于暂停状态，几乎不取电。优化电池充电或充电上限就是这个样子。"
+          }
+        }
+      }
+    },
+    "Charging on hold" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaryad gözləməkdədir"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂停充电"
+          }
+        }
+      }
+    },
+    "Charging wirelessly. The charge IC exposes the coil's voltage but no current to pair with it, so the power coming in cannot be measured — only what reaches the cell. The figure the charger advertises is the theoretical power if the coil were 100% efficient." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simsiz zaryad. Zaryad IC bobinin gərginliyini aşkara çıxarır, lakin bununla qoşmaq üçün cərəyan yoxdur, buna görə də gələn güc ölçülə bilmir — yalnız hüceyrəyə çatan. Şarj cihazının elan etdiyi rəqəm, bobin 100% səmərəli olsaydı, nəzəri gücdür."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前为无线充电。充电芯片仅提供了线圈电压，未提供对应电流，因此无法测量输入功率 —— 仅能测量充入电芯的功率。充电器广告的数字是线圈 100% 效率时的理论功率。"
+          }
+        }
+      }
+    },
+    "Chassis" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuzov"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "机身"
+          }
+        }
+      }
+    },
+    "Critical" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kritik"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "严重过热"
+          }
+        }
+      }
+    },
+    "Current into battery" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batareya içinə cərəyan"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "电池充电电流"
+          }
+        }
+      }
+    },
+    "Cycle count" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sikllərin sayı"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "循环次数"
+          }
+        }
+      }
+    },
     "Delete all" : {
       "localizations" : {
         "az" : {
@@ -346,6 +986,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "全部删除"
+          }
+        }
+      }
+    },
+    "Delete all saved sessions?" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bütün saxlanmış sessiyaları siləsiniz?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除所有已保存的会话？"
           }
         }
       }
@@ -446,6 +1102,70 @@
         }
       }
     },
+    "Draw vs rating" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çəkmə və ya reytinq"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "实际功率与额定功率"
+          }
+        }
+      }
+    },
+    "Drawing well under the adapter's rating. A thin cable, a shared port, or a profile the phone declined can all do this." : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adapterın reytinqinin çox altında çəkmə. İnce kabel, paylaşılan port və ya telefonun rədd etdiyi profil bunu edə bilər."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "远低于适配器的额定功率。线材太细、端口被分流，或手机拒绝了某个档位，都会这样。"
+          }
+        }
+      }
+    },
+    "drawn from battery" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "batareyadən çəkilmiş"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "由电池供电"
+          }
+        }
+      }
+    },
+    "Earbuds + Case" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qulaqqıvular + Qutu"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "耳机 + 充电盒"
+          }
+        }
+      }
+    },
     "Efficiency" : {
       "localizations" : {
         "az" : {
@@ -474,6 +1194,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已用时间"
+          }
+        }
+      }
+    },
+    "empty in %@" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ də boş"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@后耗尽"
           }
         }
       }
@@ -510,6 +1246,102 @@
         }
       }
     },
+    "Fair" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orta"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轻度发热"
+          }
+        }
+      }
+    },
+    "Finishing charge" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaryadı bitirən"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即将充满"
+          }
+        }
+      }
+    },
+    "from battery (%-rate estimate)" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "batareyadən (%-nisbəti təxmin)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来自电池（%-率估算）"
+          }
+        }
+      }
+    },
+    "from charger" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "şarj cihazından"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来自充电器"
+          }
+        }
+      }
+    },
+    "From charger" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şarj cihazından"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来自充电器"
+          }
+        }
+      }
+    },
+    "from MagSafe" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MagSafe-dən"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来自 MagSafe"
+          }
+        }
+      }
+    },
     "Full" : {
       "localizations" : {
         "az" : {
@@ -522,6 +1354,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已充满"
+          }
+        }
+      }
+    },
+    "full in %@" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ də tam"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@后充满"
           }
         }
       }
@@ -542,6 +1390,54 @@
         }
       }
     },
+    "Handshake" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Əl sıxışma"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "握手信息"
+          }
+        }
+      }
+    },
+    "Heat map · schematic" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İstilik xəritəsi · sxem"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "热力图 · 示意图"
+          }
+        }
+      }
+    },
+    "HID sensors" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HID sensorları"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HID 传感器"
+          }
+        }
+      }
+    },
     "History" : {
       "localizations" : {
         "az" : {
@@ -554,6 +1450,38 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "历史记录"
+          }
+        }
+      }
+    },
+    "Hottest" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ən isti"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高温度"
+          }
+        }
+      }
+    },
+    "Hottest sensor, last 3 minutes" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ən isti sensor, son 3 dəqiqə"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高温传感器（最近 3 分钟）"
           }
         }
       }
@@ -586,6 +1514,70 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "进行中"
+          }
+        }
+      }
+    },
+    "inferred" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "çıxarılmış"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "推断"
+          }
+        }
+      }
+    },
+    "Internal" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daxili"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内置"
+          }
+        }
+      }
+    },
+    "into battery" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "batareya içinə"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "进入电池"
+          }
+        }
+      }
+    },
+    "Into battery" : {
+      "localizations" : {
+        "az" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batareya içinə"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "进入电池"
           }
         }
       }
